@@ -91,8 +91,6 @@ html,
 body,
 main {
   position: relative;
-  z-index: -10;
-  overflow-y: scroll;
 }
 
 h1,
