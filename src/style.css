@@ -569,6 +569,8 @@ button {
 
 .three-section {
   flex: 1 1 375px;
+  display: flex;
+  gap: 2rem;
 
   text-align: center;
 }
