@@ -684,7 +684,7 @@ button {
 }
 
 footer {
-  background: linear-gradient(180deg, rgba(129, 202, 233, 1) 0%, rgba(129, 202, 233, 1) 30%, rgba(0, 26, 127, 1) 100%);
+  background: var(--dark);
 }
 
 .footer__section {
