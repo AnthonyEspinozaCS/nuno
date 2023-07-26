@@ -62,5 +62,6 @@
 }
 
 #about-us p:last-child {
+  width: 100%;
   text-align: center;
 }
