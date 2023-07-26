@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>The Nuno Project</title>
+    <meta name="description" content="A nonprofit dedicated to aiding those struggling with opioid addiction." />
+    <meta name="keywords" content="addiction, substance abuse, non-profit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/about.css" />
+  </head>
+  <body>
+    <header class="primary-header flex" id="home">
+      <div class="primary__header">
+        <a href="/index.html">THE NUNO PROJECT</a>
+      </div>
+
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <li class="">
+            <a href="/index.html" class="ff-sans-normal fs-nav text-black">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" class="ff-sans-normal fs-nav text-black">About Us</a>
+          </li>
+          <li class="">
+            <a href="/faq.html" class="ff-sans-normal fs-nav text-black">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about--hero container flex">
+        <h1 class="about--header ff-sans-normal text-white">About US</h1>
+        <picture class="about--image">
+          <!-- <source media="(max-width: 600px)" srcset="/src/hero-m.jpg" /> -->
+          <source media="(max-width: 1200px)" srcset="/src/about-m.jpg" />
+          <source media="(min-width: 1201px)" srcset="/src/about.jpg" />
+          <img src="/src/about.jpg" alt="Children in a support group hugging." class="" />
+        </picture>
+      </section>
+
+      <section class="page-content container flex">
+        <article id="about-us" class="page-article flex">
+          <p>On December 5, 2022, we received the devastating news of the loss of Nuno.&nbsp;😔</p>
+          <p>
+            Nuno was an incredible person who touched the lives of so many of us. In his honor, we have come together to start a non-profit organization dedicated to keeping his name alive and spreading awareness about an issue that affected his life
+            - fentanyl, an opiate.
+          </p>
+          <p>Fentanyl is a dangerous substance that has been causing immense harm and destruction in our communities. It is vital that we understand the dangers it poses and work towards eradicating its use to prevent further tragedy.</p>
+          <p>
+            Through our non-profit, we aim to raise awareness about the lethal consequences of fentanyl and opioid addiction. Our mission is to educate individuals, families, and communities about the risks associated with fentanyl use, and advocate
+            for proper prevention, treatment, and support.
+          </p>
+          <p>
+            We firmly believe that knowledge is power, and by joining forces, we can make a difference. We invite all of you to come along on this journey with us. Together, we can spread awareness, support those affected by fentanyl addiction, and
+            work towards a safer and healthier community.
+          </p>
+          <p>If you would like to contribute to our cause, whether through donations, volunteering, or simply spreading the word, please reach out to us. Every little effort counts, and your support will make a significant impact.</p>
+          <button class="btn btn--donate">Donate</button>
+          <p>Let's honor Nuno's memory by turning our grief into action. Together, we can fight against fentanyl and prevent further losses to this devastating epidemic. 🙏</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <section class="container flex footer__section">
+        <div class="footer__header">
+          <a href="/index.html">THE NUNO PROJECT</a>
+        </div>
+        <ul class="fs-medium text-white">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+        </ul>
+      </section>
+    </footer>
+
+    <script src="/src/nav.js" async defer></script>
+  </body>
+</html>

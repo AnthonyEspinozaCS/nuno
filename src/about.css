@@ -1,0 +1,65 @@
+.about--hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 33vh;
+}
+
+.about--hero::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: 33vh;
+  top: 0;
+  left: 0;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+  z-index: 2;
+}
+
+.about--image {
+  position: absolute;
+  width: 100vw;
+  height: 33vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.about--image img {
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.about--header {
+  position: relative;
+  font-size: clamp(3rem, 1.768vw + 2.586rem, 4rem);
+
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 2px 2px 2px var(--dark);
+  z-index: 5;
+}
+
+.about--header::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 2px var(--dark);
+}
+
+#about-us {
+  text-align: justify;
+}
+
+#about-us p:last-child {
+  text-align: center;
+}

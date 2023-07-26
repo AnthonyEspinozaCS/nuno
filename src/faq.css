@@ -8,11 +8,15 @@
 .bar {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
   padding-bottom: 2rem;
 
   cursor: pointer;
+}
+
+.bar h3 {
+  width: calc(100% - 50px);
 }
 
 .arrow {
